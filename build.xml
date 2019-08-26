@@ -11,15 +11,15 @@
 
     <target name="jar">
         <mkdir dir="build/jar"/>
-        <jar destfile="build/jar/Sudoku.jar" basedir="build/classes">
+        <jar destfile="build/jar/SUDOKU.jar" basedir="build/classes">
             <manifest>
-                <attribute name="Main-Class" value="Sudoku"/>
+                <attribute name="Main-Class" value="SUDOKU"/>
             </manifest>
         </jar>
     </target>
 
     <target name="run">
-        <java jar="build/jar/HelloWorld.jar" fork="true"/>
+        <java jar="build/jar/SUDOKU.jar" fork="true"/>
     </target>
 
 </project>
